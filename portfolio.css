@@ -13,6 +13,18 @@ body {
     font-family: asimovsans, sans-serif;
     font-weight: 400;
     letter-spacing: 42.9pt;
+    margin-left: 70px;
+    margin-bottom: 100px;
+    margin-top: 70px;
+}
+.links {
+    font-size: 35pt;
+    color: #a6c5b8;
+    font-family: asimovsans, sans-serif;
+    font-weight: 400;
+    letter-spacing: 42.9pt;
+    margin-left: 70px;
+    margin-bottom: 140px;
 }
 
 .design {
@@ -103,6 +115,8 @@ body {
     letter-spacing: 15pt;
     font-size: 25pt;
     color: #a6c5b8;
+    
+   
 
 
 
@@ -127,13 +141,8 @@ body {
     font-size: 25pt;
 }
 
-.back2 {
-    color: #a6c5b8;
-    font-family: asimovsans, sans-serif;
-    font-weight: 400;
-    letter-spacing: 15pt;
-    font-size: 25pt;
-}
+
+
 
 
 
@@ -240,7 +249,20 @@ a:hover {
     flex-direction: column;
     flex-wrap: wrap;
     gap: 70px;
-    align-items: flex-end;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* align-items: flex-end; */
+}
+.prayerwebsite {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 100px;
+    margin-top: 70px;
+    margin-bottom: 70px;
+    /* align-items: flex-end; */
 }
 .horizontalpics {
     display: flex;
@@ -248,8 +270,10 @@ a:hover {
     width: 100%;
     flex-direction: column;
     flex-wrap: wrap;
-    gap: 70px;
+    gap: 100px;
     margin-top: 70px;
+    margin-bottom: 70px;
+
 }
 .half-width-image  {
     flex: 0 0 50%;
@@ -262,3 +286,23 @@ a:hover {
     max-width: 100%;
     display: block;
 }
+.videos {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.back2 {
+    display: flex;
+    flex-wrap: wrap;
+    color: #a6c5b8;
+    font-family: asimovsans, sans-serif;
+    font-weight: 400;
+    letter-spacing: 15pt;
+    font-size: 25pt;
+    margin-left: 70px;
+    /* margin-bottom: 100px;
+    margin-top: 70px; */
+}
+
